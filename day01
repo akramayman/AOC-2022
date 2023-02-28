@@ -1,1 +1,47 @@
+with open("day01.txt", "rt") as Advent01:
+    Advent = Advent01.read()
 
+def Calories (text):
+    text=text.splitlines()#split text by read each line seperatly
+    value=0
+    Elf_list=[]
+    for line in text:
+        if line!='':#to split each group of number by the ''
+            value+=int(line)#convert the text of number to integer
+        else:
+            Elf_list.append(value)#thats mean we get '' and finish first group so i append the list with sum of first group and so on
+            value = 0 #reset the value
+    Elf_list.append(value)#append the sum of last group
+    return Elf_list
+
+def Top_three (text):
+    Elf=sorted(Calories(text),reverse=True)#soreted the list decreasing so the biggest value be in the first
+    Max=0
+    for i in Elf[:3]:
+        Max+=i #sum first the value of biggest three group
+    return Max
+
+def test_Calories():
+    assert max(Calories(text))==24000
+
+def test_Top_three():
+    assert Top_three(text)==45000
+
+text="""1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000"""
+
+
+print("Output of Calories 1 =",max((Calories(Advent))))#print the max group value
+print("Output of Top Three Calories 2 =",Top_three(Advent))
