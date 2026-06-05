@@ -10,20 +10,20 @@ Each day may include:
 
 ## 📅 Progress
 
-**⭐⭐ Fully Completed:** 14 / 25 Days
-**⭐ Partially Completed:** 4 / 25 Days
+**⭐⭐ Fully Completed:** 17 / 25 Days
+**⭐ Partially Completed:** 2 / 25 Days
 
 ```text
-██████████████░░░░░░░░░ 56% Fully Completed
+█████████████████░░░░░░ 70% Fully Completed
 ```
 
 ### ⭐⭐ Completed
 
-`01` `02` `03` `06` `07` `08` `09` `11` `13` `14` `18` `20` `21` `25`
+`01` `02` `03` `04` `05` `06` `07` `08` `09` `10` `11` `12` `13` `14` `18` `20` `21`
 
 ### ⭐ Partial
 
-`04` `05` `10` `12`
+`15` `25` 
 
 ## 🛠️ How to Run
 
