@@ -1,5 +1,5 @@
 # 🎄 Advent of Code 2022 – Python Solutions
-![Python Package](https://img.shields.io/badge/R%20Package-Python-blue)
+![Python Package](https://img.shields.io/badge/Python-blue)
 
 
 This repository contains my solutions for the **Advent of Code 2022** programming challenges.
