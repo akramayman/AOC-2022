@@ -1,4 +1,4 @@
-🎄 ### Advent of Code 2022 – Python Solutions
+### 🎄  Advent of Code 2022 – Python Solutions
 
 This repository contains my solutions for the Advent of Code 2022 programming challenges.
 
